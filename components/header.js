@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from '@components/button'
+import Link from "next/link"
 
 function Header() {    
   return (        
@@ -16,7 +17,9 @@ function Header() {
           <a class="page-link">About</a>
           <a class="page-link">Events</a>
           <a class="page-link">Get Involved</a>
-          <a class="page-link">Resources</a>
+          <Link href="/resources">
+            <a class="page-link">Resources</a>
+          </Link>
         </div>
 
         <div class="socials">
