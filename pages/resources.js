@@ -17,7 +17,7 @@ export default function Resources() {
   const COOP_PAGE_LINK = "https://www.sfu.ca/coop/programs/sosy.html"
 
   return (
-    <div className='.container'>
+    <div className='container'>
       <Head>
         <title>Resources</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -93,8 +93,9 @@ export default function Resources() {
         Simba and Mobify. There are few better ways to apply your classroom
         knowledge in a real-world setting.
         </article>
-        <Link href={COOP_PAGE_LINK} style={{textDecoration: 'none'}}>
-          Learn More About the Co-op Program</Link>
+        <Link href={COOP_PAGE_LINK}><a style={{textDecoration: 'none'}}>
+          Learn More About the Co-op Program
+        </a></Link>
       </details>
 
       </section>
